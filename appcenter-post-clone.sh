@@ -14,7 +14,7 @@ echo "Start dowloading AmazonChimeSDKMedia-0.9.0.tar.gz"
 curl -O https://amazon-chime-sdk-ios.s3.amazonaws.com/media/0.9.0/AmazonChimeSDKMedia-0.9.0.tar.gz
 
 echo "Finished dowloading. Extracting AmazonChimeSDKMedia-0.9.0.tar.gz"
-unzip -o AmazonChimeSDKMedia-0.9.0.tar.gz
+tar -xzvf AmazonChimeSDKMedia-0.9.0.tar.gz
 
 echo "Extracting finished. Cleaning up..."
 rm -rf AmazonChimeSDKMedia-0.9.0.tar.gz
